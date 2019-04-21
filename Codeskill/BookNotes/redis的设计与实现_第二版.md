@@ -57,12 +57,58 @@
       int (*match)(void * ptr,void * key);
     }
   ```
-  * 链表和链表节点的API
-* 字典
+  * 链表和链表节点的API(todo)
+    * listSetDupMethod
+* 字典（symbol tablem）
   * 字典的实现
     * 哈希表
+    ```C
+    // dict.h/dictht
+     typedef struct dictht {
+       //哈希表数组
+       dicEntry ** table;
+       // 哈希表大小
+       unsigned long size;
+       //哈希表大小掩码，用于计算索引值
+       // 总等于size -1
+       unsigned long sizemask;
+       // 该哈希表已有的节点的数量
+       unsigned long used;
+     }
+
+    ```
     * 哈希表节点
+    ```c
+    typedef struct dicEntry{
+      // 键
+      void * key;
+      // 值
+      union{
+        void * val;
+        uint64_tu64;
+        int64_ts64;
+      } v;
+        // 指向下个哈希表节点，形成链表
+      struct dicEntry * next;
+    } dicEntry;
+
+    ```
+
+    ```
     * 字典
+    ```
+    // dict.h/dict
+    typedef struct dict {
+      //
+      dictType * type;
+
+      void * privdata;
+
+      dictht ht[2];
+
+
+    }
+    ```
   * 哈希算法
   * 解决键冲突
   * rehash
