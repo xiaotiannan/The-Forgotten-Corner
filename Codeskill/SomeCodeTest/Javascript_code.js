@@ -7,3 +7,4 @@ let user = {
 
 alert(user.name);
 alert(user.age)
+some
