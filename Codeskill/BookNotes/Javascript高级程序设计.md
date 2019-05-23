@@ -113,7 +113,7 @@
   * 数组的队列方法 shift/unshift
   * 重排序方法？reverse/sort   
   * sort 的比较函数？
-  * 
+  * 操作方法？concat/slice/splice
 ### 5.3 Data类型
 ### 5.4 RegExp类型
 ### 5.5 Function类型
