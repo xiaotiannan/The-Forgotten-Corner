@@ -1,13 +1,9 @@
 # Javascript 读书笔记
 >总共25章
 
-## 1.简介
-  * 由三个核心构成
-    * 1. ECMAScript（欧洲计算机制造协会European Computer Manufacturers Association），由ECMA-262定义，提供核心语言功能
-    * 文档对象模型(DOM,Document Object Model),提供访问和操作网页内容的方法和接口
-    * 浏览器对象模型(BOM, Browser Object Model),提供与浏览器的方法与接口
+## 1.简介 (what is javascript)
 
-## 2.在HTML中使用Javascript
+## 2.在HTML中使用Javascript(javascript in HTML)
   * `<script>`元素
     * type="text/javascript"
     * src="./pwd"
@@ -16,7 +12,7 @@
     * 最好放置body 元素的后面，有助于用户感觉缩短打开时间
   * 延迟 defer
   * 异步脚本 async
-## 3.基本概念
+## 3.基本概念 (language Basics)
   * 语法
     * 区分大小写
     * 标识符号
@@ -28,7 +24,6 @@
   >var 局部变量/全局变量
 
   * 数据类型
-    * typeof操作符
     * underfined类型
       * 声明变量但未对其初始化
     * Null类型
@@ -94,12 +89,12 @@
     * with
     * switch
   * 函数
-## 4.变量，作用域和内存问题
-### 4.1基本类型和引用类型的值
+## 4.变量，作用域和内存问题 （Variable,Scope, and Memory）
+### 4.1基本类型和引用类型的值 ()
 ### 4.2 执行环境及作用域
 ### 4.3 垃圾收集
 ### 4.4 小结
-## 5.引用类型
+## 5.引用类型 (reference types)
 ### 5.1 Object 类型
   * 2种方法创建
 ### 5.2 Array类型
@@ -120,23 +115,23 @@
 ### 5.6 基本包装类型
 ### 5.7 单体内置对象
 ### 5.8 小结
-## 6.面向对象的程序设计
-## 7.函数表达式
-## 8.BOM
-## 9.客户端检测
-## 10.DOM
-## 11.DOM扩展
-## 12.DOM2和DOM3
-## 13.事件
-## 14.表单脚本
-## 15.使用Canvas绘图
-## 16.HTML5脚本编程
-## 17.错误处理和调试
-## 18.Javascript和XML
-## 19.E4X
+## 6.面向对象的程序设计 (Object-oriented Programming)
+## 7.函数表达式( function Expressions)
+## 8.BOM (The browser Object Model)
+## 9.客户端检测 (client detection)
+## 10.DOM (The document object model)
+## 11.DOM扩展 (DOM extensions)
+## 12.DOM2和DOM3 (DOM level2 and 3)
+## 13.事件 (events)
+## 14.表单脚本 (scripting Forms)
+## 15.使用Canvas绘图 (Graphics with Canvas)
+## 16.HTML5脚本编程 (HTML5 Scripting)
+## 17.错误处理和调试 (Error Handing and Debugging)
+## 18.Javascript和XML (XML in Javascript)
+## 19.E4X （ECMAScript for XML）
 ## 20.JSON
 ## 21.Ajax与Comet
-## 22.高级技巧
-## 23.离线应用和客户端存储
-## 24.最佳实践
-## 25.新兴API
+## 22.高级技巧 (Advanced Techniques)
+## 23.离线应用和客户端存储 (Offline Application and Client-side Storage)
+## 24.最佳实践 (Best Practices)
+## 25.新兴API (Emergin APIs)
